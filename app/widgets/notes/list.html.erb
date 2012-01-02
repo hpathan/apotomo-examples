@@ -1,0 +1,12 @@
+<%= widget_div do %>
+  <div style="border:1px solid red;width:300px">
+    <ul>
+      <% @notes.each do |note| %>
+        <li><%= note.title%></li>
+      <% end %>
+    </ul>
+  </div>
+  <p>
+    <%= @notes.count %> Notes
+  </p>
+<% end %>

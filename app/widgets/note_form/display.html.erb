@@ -1,6 +1,6 @@
 <%= widget_div do %>
   <%= form_for :note, :url => url_for_event(:submit, :source => 'note_form'), :html => {:id=>'new_note_form'} do |f| %>
-    <%= text_field_tag 'entry' %>
+    <%= text_field_tag 'entry', "", "data-event-url" => url_for_event(:typing, :source => 'note_form') %>
     <%= f.submit "Create" %>
   <% end %>
 <% end %>
