@@ -13,5 +13,5 @@ You need Rails3, Ruby1.8.7 or higher and Mysql. If you are running on Rails2, th
 
 ####For more information visit:
 
-[http://apotomo.de/](http://apotomo.de/)
-[http://nicksda.apotomo.de/](http://nicksda.apotomo.de/)
+* [http://apotomo.de/](http://apotomo.de/)
+* [http://nicksda.apotomo.de/](http://nicksda.apotomo.de/)
